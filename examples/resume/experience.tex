@@ -1,101 +1,113 @@
 %-------------------------------------------------------------------------------
-%	SECTION TITLE
+%       SECTION TITLE
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
 
 %-------------------------------------------------------------------------------
-%	CONTENT
+%       CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
 %---------------------------------------------------------
   \cventry
-    {Software Architect} % Job title
-    {Omnious. Co., Ltd.} % Organization
+    {CTO} % Job title
+    {BGPworks} % Organization
     {Seoul, S.Korea} % Location
-    {Jun. 2017 - May. 2018} % Date(s)
+    {Dec. 2018 - Jun. 2022 (3.6 years)} % Date(s)
     {
+      Launched B2B inventory management service, called BoxHero, adopted by over 3K clients globally. Raised funding from KaKao Ventures and government (TIPS). Doubled in business revenue every year. (2021 ARR: USD 600K)\newline
+      \vspace{6mm}
+      %%
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
-        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
-        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
-        \item {Implemented several API microservices in Node.js Koa and in the serverless AWS Lambda functions.}
-        \item {Deployed a centralized logging environment(ELK, Filebeat, CloudWatch, S3) which gather log data from docker containers and AWS resources.}
-        \item {Deployed a centralized monitoring environment(Grafana, InfluxDB, CollectD) which gather system metrics as well as docker run-time metrics.}
+        %%
+        \item Designed the architecture of the overall service
+        \begin{itemize}[leftmargin=2ex]
+          \item Designed and developed RESTful API servers and backend systems, cross-platform client apps (web/mobile/desktop).
+          \item Designed and developed several auxiliary microservices: rending PDF documents, sending bulk e-mails, collecting orders from various shopping mall services, etc.
+          \item Lean development: defined latent consumer needs and developed minimum viable product.
+          \item Tools: Clojure(Script), React, Flutter, Postgresql, Node.js, AWS, etc.
+        \end{itemize}
+        %%
+        \item Provisioned infrastructure to streamline fast dev/test/deploy cycle.
+        \begin{itemize}[leftmargin=2ex]
+          \item Provisioned an instant preview environment for each PR: speeded up team collaboration and increased service quality.
+          \item Utilized PaaS, IaaS, SaaS to increase productivity: Heroku, Vercel, AWS, Sentry, Helpscout, Yandex.Metrica, etc.
+          \item Infrastructure as code using GitOps.
+          \item Implemented several heuristic error detection scripts and prevented 1-2 critical bugs a month.
+        \end{itemize}
+        %%
+        \item Built the dev team from the scratch
+        \begin{itemize}[leftmargin=2ex]
+          \item Documented for fast onboarding: setup guides, development guides, learning materials, APIs spec, decision rationales.
+        \end{itemize}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Co-founder \& Software Engineer} % Job title
-    {PLAT Corp.} % Organization
+    {Lead Backend Developer} % Job title
+    {\href{https://bagelcode.com}{Bagelcode}} % Organization
     {Seoul, S.Korea} % Location
-    {Jan. 2016 - Jun. 2017} % Date(s)
+    {Jan. 2016 - Sep. 2018 (2.8 years)} % Date(s)
     {
+      Soft-launched and Global-launched a social casino mobile game, Club Vegas (Download: 5M in 2018). Developed RESTful API server and backend infrastructure for mobile social casino app. Streamlined work processes by provisioning CI/CD pipelines and back-office tools. Participated in M\&A task worth £18m.\newline
+      \vspace{6mm}
+      %%
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).}
-        \item {Built and deployed overall service infrastructure utilizing Docker container, CircleCI, and several AWS stack(Including EC2, ECS, Route 53, S3, CloudFront, RDS, ElastiCache, IAM), focusing on high-availability, fault tolerance, and auto-scaling.}
-        \item {Developed an easy-to-use Payment module which connects to major PG(Payment Gateway) companies in Korea.}
+        %%
+        \item Developed RESTful API server for mobile social casino app
+        \begin{itemize}[leftmargin=2ex]
+          \item Designed and developed games and features: slot game math models, community jackpots, real-time user ranking, clans, etc.
+          \item Implemented transactional APIs in a fault-tolerant manner for 20K+ concurrent players.
+          \item Implemented idempotent request feature: helped the client to achieve the highest possible QoS on pool network condition.
+          \item Increased test coverage: refactored for better testability, automated game module tests, conducted random stress test.
+          \item Increased reliability: adopted Typescript to catch trivial bugs, adopted Protobuf to manage API schema.
+          \item Tools: Node.js, Typescript, Mysql, Redis, Memcache, AWS, Protobuf, etc.
+        \end{itemize}
+        %%
+        \item Streamlined work processes by developing and provisioning utility services.
+        \begin{itemize}[leftmargin=2ex]
+          \item Deployed multiple server environments using K8S: monitoring, alerting, log aggregation.
+          \item CI/CD pipelines for App/Server: reduced 90\% of troubleshooting efforts.
+          \item Developed and deployed required productivity tools: VPN, Gitlab, test runner, beta app distribution service, back-office service, etc.
+          \item Tools: Jenkins, Fastlane, Docker, K8S, AWS, SwapVPN, Gitlab, Flutter/Dart, Typescript, jQuery, React, etc.
+        \end{itemize}
+        %%
+        \item Participated in M\&A task (JPJ Group social gaming business)
+        \begin{itemize}[leftmargin=2ex]
+          \item Identified and analyzed tech stack/team: technical issues/limitations, the role and responsibility of individual developers.
+          \item Conducted technical feasibility studies on business plans by implementing PoC prototypes.
+        \end{itemize}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Software Engineer \& Security Researcher (Compulsory Military Service)} % Job title
-    {R.O.K Cyber Command, MND} % Organization
-    {Seoul, S.Korea} % Location
-    {Aug. 2014 - Apr. 2016} % Date(s)
+    {Assistant Engineer} % Job title
+    {Samsung Electronics} % Organization
+    {Suwon, S.Korea} % Location
+    {Feb. 2013 - Jan. 2016 (3 years)} % Date(s)
     {
+      Automated UI test for Samsung Browser. Developed the core of Samsung Mobile Theme Editor.\newline
+      \vspace{6mm}
+      %%
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
-        \item {Implemented a distributed web stress test tool with high anonymity.}
-        \item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+        %%
+        \item Built fully automated UI test pipelines for Samsung Browser
+        \begin{itemize}[leftmargin=2ex]
+          \item Developed UI test framework for Android App and mechanized preexisting 500 test scenarios.
+          \item Provisioned underlying infra: automated machine management (build machines, test devices), continuous build and test pipelines.
+          \item Tools: Python, Android SDK/Build tools, Jenkins, Vagrant, etc.
+        \end{itemize}
+        %%
+        \item Designed core architecture and features of Samsung Mobile Theme Editor
+        \begin{itemize}[leftmargin=2ex]
+          \item Developed main features: overall architecture design, rendering real-time preview, generating final artifact (APK), etc.
+          \item Analyzed Android view rendering and APK build mechanism and ported part of them.
+          \item Tools: C\#/WPF, Android SDK/Build tools, Electron, React/Redux, etc.
+        \end{itemize}
       \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Game Developer Intern at Global Internship Program} % Job title
-    {NEXON} % Organization
-    {Seoul, S.Korea \& LA, U.S.A} % Location
-    {Jan. 2013 - Feb. 2013} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed in Cocos2d-x an action puzzle game(Dragon Buster) targeting U.S. market.}
-        \item {Implemented API server which is communicating with game client and In-App Store, along with two other team members who wrote the game logic and designed game graphics.}
-        \item {Won the 2nd prize in final evaluation.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer} % Job title
-    {ShitOne Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Dec. 2011 - Feb. 2012} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
-        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Freelance Penetration Tester} % Job title
-    {SAMSUNG Electronics} % Organization
-    {S.Korea} % Location
-    {Sep. 2013, Mar. 2011 - Oct. 2011} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Conducted penetration testing on SAMSUNG KNOX, which is solution for enterprise mobile security.}
-        \item {Conducted penetration testing on SAMSUNG Smart TV.}
-      \end{cvitems}
-      %\begin{cvsubentries}
-      %  \cvsubentry{}{KNOX(Solution for Enterprise Mobile Security) Penetration Testing}{Sep. 2013}{}
-      %  \cvsubentry{}{Smart TV Penetration Testing}{Mar. 2011 - Oct. 2011}{}
-      %\end{cvsubentries}
     }
 
 %---------------------------------------------------------
