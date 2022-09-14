@@ -1,0 +1,58 @@
+
+BGPworks, CTO
+{CTO} % Job title
+{Seoul, S.Korea} % Location
+{Dec. 2018 - Jun. 2022 (3.6 years)} % Date(s)
+
+Launched B2B inventory management service, called BoxHero, adopted by over 3K clients globally. Raised funding from KaKao Ventures and government (TIPS). Doubled in business revenue every year. (2021 ARR: USD 600K)
+
+• Designed the architecture of the overall service
+ - Designed and developed RESTful API servers and backend systems, cross-platform client apps (web/mobile/desktop).
+ - Designed and developed several auxiliary microservices: rending PDF documents, sending bulk e-mails, collecting orders from various shopping mall services, etc.
+ - Lean development: defined latent consumer needs and developed minimum viable product.
+• Provisioned infrastructure to streamline fast dev/test/deploy cycle.
+ - Provisioned an instant preview environment for each PR: speeded up team collaboration and increased service quality.
+ - Utilized PaaS, IaaS, SaaS to increase productivity: Heroku, Vercel, AWS, Sentry, Helpscout, Yandex.Metrica, etc.
+ - Infrastructure as code using GitOps.
+ - Implemented several heuristic error detection scripts and prevented 1-2 critical bugs a month.
+ - Documented for fast onboarding: setup guides, development guides, learning materials, APIs spec, decision rationales.
+
+
+Bagelcode, Lead Backend Developer
+{Lead Backend Developer} % Job title
+{Seoul, S.Korea} % Location
+{Jan. 2016 - Sep. 2018 (2.8 years)} % Date(s)
+
+Soft-launched and Global-launched a social casino mobile game, Club Vegas (Download: 5M in 2018). Developed RESTful API server and backend infrastructure for mobile social casino app. Streamlined work processes by provisioning CI/CD pipelines and back-office tools. Participated in M&A task worth £18m.
+
+• Developed RESTful API server for mobile social casino app
+ - Designed and developed games and features: slot game math models, community jackpots, real-time user ranking, clans, etc.
+ - Implemented transactional APIs in a fault-tolerant manner for 20K+ concurrent players.
+ - Implemented idempotent request feature: helped the client to achieve the highest possible QoS on pool network condition.
+ - Increased test coverage: refactored for better testability, automated game module tests, conducted random stress test.
+ - Increased reliability: adopted Typescript to catch trivial bugs, adopted Protobuf to manage API schema.
+• Streamlined work processes by developing and provisioning utility services.
+ - Deployed multiple server environments using K8S: monitoring, alerting, log aggregation.
+ - CI/CD pipelines for App/Server: reduced 90% of troubleshooting efforts.
+ - Developed and deployed required productivity tools: VPN, Gitlab, test runner, beta app distribution service, back-office service, etc.
+• Participated in M&A task (JPJ Group social gaming business)
+ - Identified and analyzed tech stack/team: technical issues/limitations, the role and responsibility of individual developers.
+ - Conducted technical feasibility studies on business plans by implementing PoC prototypes.
+• Tools: Node.js, Typescript, Mysql, Redis, AWS, K8S, Jenkins, Fastlane, Flutter, React, etc.
+
+Samsung Electronics
+
+{Assistant Engineer} % Job title
+{Samsung Electronics (Mobile Division)} % Organization
+{Suwon, S.Korea} % Location
+{Feb. 2013 - Jan. 2016 (3 years)} % Date(s)
+
+Automated UI test for Samsung Browser. Developed the core of Samsung Mobile Theme Editor.
+• Built fully automated UI test pipelines for Samsung Browser
+ - Developed UI test framework for Android App and mechanized preexisting 500 test scenarios.
+ - Provisioned underlying infra: automated machine management (build machines, test devices), continuous build and test pipelines.
+• Designed core architecture and features of Samsung Mobile Theme Editor
+ - Developed main features: overall architecture design, rendering real-time preview, generating final artifact (APK), etc.
+ - Analyzed Android view rendering and APK build mechanism and ported part of them.
+
+• Tools: Python, C#/WPF, Jenkins, Vagrant, Electron, React, etc.
